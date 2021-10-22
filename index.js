@@ -4,6 +4,7 @@ const app = express();
 const port = 4000;
 
 app.use(cors());
+
 const users = [
   { id: 1, name: "azad111111111", phone: "998877" },
   { id: 2, name: "azad222222222", phone: "998877" },
