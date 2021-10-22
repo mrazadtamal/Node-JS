@@ -35,6 +35,8 @@ app.get("/users", (req, res) => {
 //   res.send(user);
 // });
 
+app.post("/user", (req, res) => {});
+
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
 });
