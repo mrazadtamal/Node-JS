@@ -35,3 +35,12 @@ app.get("/users", (req, res) => {
 //   const user = users[id];
 //   res.send(user);
 // });
+
+app.post("/user", (req, res) => {
+  console.log("sdffffffffffff");
+  res.send(true);
+});
+
+app.listen(port, () => {
+  console.log(`Example app listening at http://localhost:${port}`);
+});
